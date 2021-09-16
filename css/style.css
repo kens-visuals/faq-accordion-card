@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 83%;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: #787887;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(to bottom, #af67e9, #6565e7);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.container {
+  width: 80%;
+  max-width: 700px; }
+
+.card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  padding: 2rem; }
+  .card__img {
+    margin-bottom: 7rem; }
+    .card__img-box {
+      display: none; }
+    .card__img-woman {
+      position: absolute;
+      top: -8.5rem;
+      left: 0; }
+    .card__img-pattern {
+      position: absolute;
+      top: -0.5rem;
+      left: 2rem; }
+  .card__details {
+    width: 100%; }
+    .card__details-heading {
+      margin: 2rem 0;
+      text-align: center;
+      color: #1d1e35; }
+  .card__detail {
+    margin-bottom: 0.2rem;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-bottom: 1px solid #e7e7e9; }
+    .card__detail[open] {
+      color: #1d1e35; }
+    .card__detail-summary {
+      list-style: none;
+      padding: 1rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.9rem; }
+    .card__detail-text {
+      font-size: 0.8rem;
+      margin-bottom: 1.5rem;
+      color: #787887;
+      width: 100%;
+      max-width: 220px; }
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem; }
+  .attribution__link:link, .attribution__link:visited {
+    text-transform: uppercase;
+    transition: all 0.2s; }
+  .attribution__link:hover, .attribution__link:active {
+    text-transform: uppercase; }

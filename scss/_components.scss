@@ -1,0 +1,84 @@
+.card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  padding: 2rem;
+
+  &__img {
+    margin-bottom: 7rem;
+    &-box {
+      display: none;
+    }
+
+    &-woman {
+      position: absolute;
+      top: -8.5rem;
+      left: 0;
+    }
+
+    &-pattern {
+      position: absolute;
+      top: -0.5rem;
+      left: 2rem;
+    }
+  }
+
+  &__details {
+    width: 100%;
+
+    &-heading {
+      margin: 2rem 0;
+      text-align: center;
+      color: $color-primary;
+    }
+  }
+
+  &__detail {
+    margin-bottom: 0.2rem;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-bottom: 1px solid $color-tertiary;
+
+    &[open] {
+      color: $color-primary;
+    }
+
+    &-summary {
+      list-style: none;
+      padding: 1rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.9rem;
+    }
+
+    &-text {
+      font-size: 0.8rem;
+      margin-bottom: 1.5rem;
+      color: $color-primary--light;
+      width: 100%;
+      max-width: 220px;
+    }
+  }
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+
+  &__link:link,
+  &__link:visited {
+    text-transform: uppercase;
+    // color: $color-secondary--light;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    text-transform: uppercase;
+    // color: $color-secondary--dark;
+  }
+}
