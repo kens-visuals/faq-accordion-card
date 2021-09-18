@@ -92,8 +92,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [MDN: HTML <details>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) - This helped me to fully understand how HTML details work, also further helped for styling them.
-- [CSS-Ticks: <details> animations](https://css-tricks.com/how-to-animate-the-details-element/) - Some other methods that I found on CSS-ticks on how to animate details.
+- [MDN: HTML `<details></details`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) - This helped me to fully understand how HTML details work, also further helped for styling them.
+- [CSS-Ticks: `<details></details` animations](https://css-tricks.com/how-to-animate-the-details-element/) - Some other methods that I found on CSS-ticks on how to animate details.
 
 ## Author
 
