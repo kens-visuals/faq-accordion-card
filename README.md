@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [TBU](https://your-solution-url.com)
-- Live Site URL: [TBU](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-card-in-pure-html-and-scss-9OePi0oj-](https://www.frontendmentor.io/solutions/faq-accordion-card-in-pure-html-and-scss-9OePi0oj-)
+- Live Site URL: [https://kens-visuals.github.io/faq-accordion-card/](https://kens-visuals.github.io/faq-accordion-card/)
 
 ## My process
 
